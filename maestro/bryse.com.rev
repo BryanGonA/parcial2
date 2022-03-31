@@ -1,0 +1,25 @@
+$ORIGIN 100.168.192.in-addr.arpa.
+$TTL 3H
+@       IN SOA  server.bryse.com. root@bryse.com. (
+                                        0       ; serial
+                                        1D      ; refresh
+                                        1H      ; retry
+                                        1W      ; expire
+                                        3H )    ; minimum
+@       IN      NS      server.bryse.com.
+bryse.com.	IN A	192.168.100.8
+
+;host en la zona
+@	IN	NS	esclavo.bryse.com.
+3       IN      PTR     server.bryse.com.
+esclavo	IN	A	192.168.100.7
+
+
+
+
+
+
+
+
+
+
